@@ -68,7 +68,7 @@ Item {
             }
 
             if (sourceName === averageCoreHot) {
-                averageCoreHotText.text = parseInt(data.value) + " °"
+                averageCoreHotText.text = parseInt(data.value) + " ° "
             }
         }
 
@@ -188,7 +188,7 @@ Item {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.right: parent.right
                 font.pixelSize: fontPixelSize
-                text: '0 °'
+                text: '0 ° '
             }
         }
     }
