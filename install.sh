@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo rm -rf /usr/share/plasma/plasmoids/org.kde.resourcesMonitor
+sudo rm -rf /usr/share/plasma/plasmoids/ResourcesMonitor
 rm -rf ./build
 mkdir build
 cd build
